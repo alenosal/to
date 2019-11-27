@@ -1,4 +1,4 @@
-package com.mycompany.projekt_to_aleksander_nosal;
+package com.mycompany.prototype;
 
 /**
  * Hello world!
