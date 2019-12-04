@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="111cfab4-5342-4d68-8a6c-cf8081e4819b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/projekt_to_aleksander_nosal/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/projekt_to_aleksander_nosal/KiloMeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/projekt_to_aleksander_nosal/Meter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/projekt_to_aleksander_nosal/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/projekt_to_aleksander_nosal/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UWq9oLIfEh6EWqRZSUQ5U583He" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AppTest.meterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projekt_to_Aleksander_Nosal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.projekt_to_aleksander_nosal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.projekt_to_aleksander_nosal" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.projekt_to_aleksander_nosal.AppTest" />
+      <option name="METHOD_NAME" value="meterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.meterTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="111cfab4-5342-4d68-8a6c-cf8081e4819b" name="Default Changelist" comment="" />
+      <created>1575482549857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575482549857</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1575482736247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575482736247" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575483747920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575483747920" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575483747918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575483747918" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575483747918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575483747918" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575483747920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575483747920" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1575482554603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575482554603" />
+  </component>
+</project>
