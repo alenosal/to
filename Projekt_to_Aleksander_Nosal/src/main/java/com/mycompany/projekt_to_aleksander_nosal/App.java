@@ -6,8 +6,10 @@ package com.mycompany.projekt_to_aleksander_nosal;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
+        House myHome = new RedHouse();
+        myHome.build();
+        House myHome2 = new BigHouseDecorator(myHome);
+        myHome2.build();
     }
 }
