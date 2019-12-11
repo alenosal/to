@@ -13,8 +13,15 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void facadeTest()
     {
-        assertTrue( true );
+        CarMaker maker = new CarMaker();
+        assertTrue(maker instanceof CarMaker);
+        assertTrue(maker.MakeAudi() instanceof Car);
+        assertTrue(maker.MakeAudi() instanceof Audi);
+        assertTrue(maker.MakeBmw() instanceof Car);
+        assertTrue(maker.MakeBmw() instanceof BMW);
+        assertTrue(maker.MakeMerc() instanceof Car);
+        assertTrue(maker.MakeMerc() instanceof Mercedes);
     }
 }
