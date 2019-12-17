@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        ProxyAccount account = new ProxyAccount(1000);
+        account.operations("t", 100);
+
     }
 }
