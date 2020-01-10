@@ -9,12 +9,12 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void IteratorTest()
     {
-        assertTrue( true );
+       ClassRoom classRoom = new ClassRoom();
+       assertTrue(classRoom instanceof ClassRoom);
+       assertTrue(classRoom instanceof Conteiner);
+       assertTrue(classRoom.getIterator() instanceof Iterator);
     }
 }
