@@ -9,12 +9,16 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void BrokerTest()
     {
-        assertTrue( true );
+        Broker broker = new Broker();
+        Stock firma = new Stock();
+        assertTrue(broker instanceof Broker);
+        assertTrue(firma instanceof Stock);
+        BuyStock buyOrder = new BuyStock(firma);
+        SellStock sellOrder = new SellStock(firma);
+        assertTrue(buyOrder instanceof BuyStock && buyOrder instanceof Order);
+        assertTrue(sellOrder instanceof SellStock && sellOrder instanceof Order);
     }
 }
