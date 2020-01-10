@@ -10,15 +10,11 @@ import org.junit.Test;
 public class AppTest 
 {
     @Test
-    public void BrokerTest()
+    public void IteratorTest()
     {
-        Broker broker = new Broker();
-        Stock firma = new Stock();
-        assertTrue(broker instanceof Broker);
-        assertTrue(firma instanceof Stock);
-        BuyStock buyOrder = new BuyStock(firma);
-        SellStock sellOrder = new SellStock(firma);
-        assertTrue(buyOrder instanceof BuyStock && buyOrder instanceof Order);
-        assertTrue(sellOrder instanceof SellStock && sellOrder instanceof Order);
+       ClassRoom classRoom = new ClassRoom();
+       assertTrue(classRoom instanceof ClassRoom);
+       assertTrue(classRoom instanceof Conteiner);
+       assertTrue(classRoom.getIterator() instanceof Iterator);
     }
 }
