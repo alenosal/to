@@ -12,9 +12,17 @@ public class AppTest
     @Test
     public void IteratorTest()
     {
-       ClassRoom classRoom = new ClassRoom();
-       assertTrue(classRoom instanceof ClassRoom);
-       assertTrue(classRoom instanceof Conteiner);
-       assertTrue(classRoom.getIterator() instanceof Iterator);
+        SensorSystem sensor = new SensorSystem();
+        assertTrue(sensor instanceof SensorSystem);
+        Alarm alarm = new Alarm();
+        Light light = new Light();
+        sensor.register(alarm);
+        sensor.register(light);
+        assertTrue(alarm instanceof Alarm);
+        assertTrue(light instanceof Light);
+        assertTrue(sensor.check() == 2);
+        sensor.soundTheAlarm();
+        assertTrue(sensor.check() == 0);
+
     }
 }
