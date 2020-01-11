@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import java.lang.management.PlatformLoggingMXBean;
+
 /**
  * Unit test for simple App.
  */
@@ -12,17 +14,15 @@ public class AppTest
     @Test
     public void IteratorTest()
     {
-        SensorSystem sensor = new SensorSystem();
-        assertTrue(sensor instanceof SensorSystem);
-        Alarm alarm = new Alarm();
-        Light light = new Light();
-        sensor.register(alarm);
-        sensor.register(light);
-        assertTrue(alarm instanceof Alarm);
-        assertTrue(light instanceof Light);
-        assertTrue(sensor.check() == 2);
-        sensor.soundTheAlarm();
-        assertTrue(sensor.check() == 0);
-
+        Navigation navigation = new Navigation();
+        assertTrue(navigation instanceof Navigation);
+        Place place = new Place();
+        Time time = new Time();
+        Route route = new Route();
+        assertTrue(route instanceof Route);
+        assertTrue(time instanceof Time);
+        assertTrue(place instanceof Place);
+        navigation.setStrategy(place);
+        assertTrue(navigation.getStrategy() instanceof Place);
     }
 }
