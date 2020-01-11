@@ -9,12 +9,20 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void IteratorTest()
     {
-        assertTrue( true );
+        SensorSystem sensor = new SensorSystem();
+        assertTrue(sensor instanceof SensorSystem);
+        Alarm alarm = new Alarm();
+        Light light = new Light();
+        sensor.register(alarm);
+        sensor.register(light);
+        assertTrue(alarm instanceof Alarm);
+        assertTrue(light instanceof Light);
+        assertTrue(sensor.check() == 2);
+        sensor.soundTheAlarm();
+        assertTrue(sensor.check() == 0);
+
     }
 }
